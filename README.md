@@ -1,66 +1,65 @@
-# AI-Architecture-Simulator
-Design production-ready AI systems in seconds — simulate architectures, visualize workflows, and estimate cost &amp; latency like a Senior AI Architect.
-# AI Architecture Simulator
+#  AI System Design Simulator
 
-> Design AI systems like a Senior Architect — instantly.
-
-An interactive Streamlit-based tool that converts natural language project ideas into **real-world AI system architectures**, complete with:
-- System flow diagrams
--  Latency estimates
-- Cost insights
--  Complexity analysis
-
-
-
-## Features
-
--  **Intent Detection Engine**
-  - Automatically classifies your idea into:
-    - RAG Systems
-    - Data Agents
-    - Streaming Architectures
-    - Multi-Agent Systems
-    - Standard LLM Pipelines
-
--  **Interactive Architecture Visualization**
-  - Built with Plotly (zoom, hover, pan)
-  - Clean system flow diagrams
-
--  **Latency Simulation**
-  - Real-world inspired latency breakdowns
-
-- **Cost Estimation**
-  - Rough cost modeling for different architectures
-
-- **Complexity Analysis**
-  - Understand engineering difficulty before building
+> Think like a Senior AI Architect.  
+> This tool converts plain English ideas into **production-ready AI system architectures** with cost, latency, and flow visualization.
 
 ---
 
-## Example Inputs
-
-Try prompts like:
-
-- "Build a chatbot for customer support"
-- "Analyze CSV sales data automatically"
-- "Real-time fraud detection system"
-- "Multi-agent research assistant"
+## Problem
+Designing AI systems (RAG, Agents, Streaming pipelines) requires deep system design knowledge.  
+Most developers struggle to translate ideas into scalable architectures.
 
 ---
 
-##Tech Stack
-
-- **Frontend/UI:** Streamlit
-- **Graph Engine:** NetworkX
-- **Visualization:** Plotly
-- **Language:** Python
+## Solution
+This simulator analyzes user intent and generates:
+- Recommended AI architecture (RAG / Agent / Streaming / LLM)
+- System flow diagram
+- Latency & cost estimation
+- Complexity insights
 
 ---
 
-##Installation
+##  Features
+-  Intent Classification Engine (rule-based AI logic)
+-  Architecture Recommendation System
+-  Interactive System Flow Visualization (Plotly)
+-  Latency Simulation
+-  Cost Estimation
+- Covers RAG, Agents, Streaming & LLM systems
 
-```bash
-git clone https://github.com/your-username/AI-Architecture-Simulator.git
-cd AI-Architecture-Simulator
-pip install -r requirements.txt
-streamlit run AI_SIM.py
+---
+
+## Architecture Logic
+User Input → Intent Classifier → Architecture Engine →  
+Graph Builder → Cost + Latency Simulator → UI Output
+
+
+## Live Demo
+🔗 https://ai-architecture-simulator-ewvfnvhb54f9j497t2ptqp.streamlit.app/
+
+---
+
+## Tech Stack
+- Python
+- Streamlit
+- NetworkX
+- Plotly
+- Rule-based AI Engine
+
+---
+
+## Why This Project Matters
+- Demonstrates **system design thinking (rare for freshers)**
+- Simulates **real-world AI architectures**
+- Shows ability to design **scalable AI systems**
+- Strong fit for **AI Engineer / ML Engineer roles**
+
+---
+
+## Future Enhancements
+- LLM-powered architecture recommendations
+- Cloud cost estimation (AWS/GCP)
+- Export architecture diagrams (PNG/PDF)
+
+---
