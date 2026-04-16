@@ -50,10 +50,9 @@ Graph Builder → Cost + Latency Simulator → UI Output
 ---
 
 ## Why This Project Matters
-- Demonstrates **system design thinking (rare for freshers)**
+- Demonstrates **system design thinking **
 - Simulates **real-world AI architectures**
 - Shows ability to design **scalable AI systems**
-- Strong fit for **AI Engineer / ML Engineer roles**
 
 ---
 
